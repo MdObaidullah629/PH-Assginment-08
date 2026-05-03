@@ -30,4 +30,5 @@ To run this project, add the following variables to your `.env.local` file:
 ## 📦 Installation & Setup
 1. Clone the repo: `git clone https://github.com/MdObaidullah629/SunCart.git`
 2. Install dependencies: `npm install`
-3. Run the project: `npm run dev`
+3. Run the project: `npm run dev`......
+-------- --------
