@@ -1,4 +1,4 @@
-<!-- # ☀️ SunCart - Summer Essentials Store
+# ☀️ SunCart - Summer Essentials Store
 
 SunCart is a modern e-commerce platform dedicated to summer-themed products. 
 It features a unique, bold design with smooth navigation and user authentication.
@@ -30,4 +30,4 @@ To run this project, add the following variables to your `.env.local` file:
 ## 📦 Installation & Setup
 1. Clone the repo: `git clone https://github.com/MdObaidullah629/SunCart.git`
 2. Install dependencies: `npm install`
-3. Run the project: `npm run dev` -->
+3. Run the project: `npm run dev`
