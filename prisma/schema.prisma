@@ -5,16 +5,16 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
+  provider = "mongodb"
   url      = env("DATABASE_URL") 
 }
 
 model User {
-  id            String    @id @default(cuid())
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
   name          String
   email         String    @unique
   emailVerified Boolean   @default(false)
-  image         String?   @db.Text 
+  image         String?   
   password      String?
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
@@ -25,26 +25,26 @@ model User {
 }
 
 model Session {
-  id        String   @id @default(cuid())
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
   expiresAt DateTime
   token     String   @unique
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  ipAddress String?  // নতুন যুক্ত করা হয়েছে
-  userAgent String?  // নতুন যুক্ত করা হয়েছে
-  userId    String
+  ipAddress String?  
+  userAgent String?  
+  userId    String   @db.ObjectId
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@map("session")
 }
 
 model Account {
-  id           String    @id @default(cuid())
-  userId       String
+  id           String    @id @default(auto()) @map("_id") @db.ObjectId
+  userId       String    @db.ObjectId
   accountId    String
   providerId   String
-  accessToken  String?   @db.Text
-  refreshToken String?   @db.Text
+  accessToken  String?   
+  refreshToken String?   
   expiresAt    DateTime?
   password     String?
   createdAt    DateTime  @default(now())
@@ -55,7 +55,7 @@ model Account {
 }
 
 model Verification {
-  id         String   @id @default(cuid())
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
   identifier String
   value      String
   expiresAt  DateTime
