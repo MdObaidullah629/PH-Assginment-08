@@ -1,26 +1,10 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* এটি নিশ্চিত করে যে আপনার কাস্টম স্টাইলগুলো Tailwind লোড হওয়ার পর কাজ করবে */
+@layer base {
+  body {
+    /* bg-gray-50 এর বদলে সরাসরি কালার কোড বা ভেরিয়েবল ব্যবহার করা নিরাপদ */
+    @apply bg-gray-50 text-gray-900 overflow-x-hidden;
+    background-color: #f9fafb; /* Backup for bg-gray-50 */
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }

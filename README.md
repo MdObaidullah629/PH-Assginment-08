@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- # ☀️ SunCart - Summer Essentials Store
 
-## Getting Started
+SunCart is a modern e-commerce platform dedicated to summer-themed products. 
+It features a unique, bold design with smooth navigation and user authentication.
 
-First, run the development server:
+## 🚀 Live URL
+[Insert Your Vercel/Render Link Here]
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Key Features
+- **Responsive Design:** Seamless experience across Mobile, Tablet, and Desktop.
+- **Authentication:** Secure login and registration powered by BetterAuth.
+- **Dynamic Products:** Detailed product views with dynamic routing.
+- **Personalized Profile:** Users can view and update their personal information.
+- **Interactive UI:** Smooth loading animations using Lottie-react.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ NPM Packages Used
+- `next`
+- `better-auth`
+- `lottie-react`
+- `tailwind-merge`
+- `lucide-react`
+- `clsx`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ⚙️ Environment Variables
+To run this project, add the following variables to your `.env.local` file:
+- `BETTER_AUTH_SECRET`
+- `NEXT_PUBLIC_BASE_URL`
+- `DATABASE_URL`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📦 Installation & Setup
+1. Clone the repo: `git clone https://github.com/MdObaidullah629/SunCart.git`
+2. Install dependencies: `npm install`
+3. Run the project: `npm run dev` -->
