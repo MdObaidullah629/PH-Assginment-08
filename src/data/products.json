@@ -1,68 +1,68 @@
-// [
-//   {
-//     "id": 1,
-//     "name": "Portable Handheld Mini Fan",
-//     "brand": "CoolBreeze",
-//     "price": 12,
-//     "rating": 4.5,
-//     "stock": 25,
-//     "description": "Stay cool anywhere with this rechargeable mini fan. Features 3 speed settings and a long-lasting battery.",
-//     "image": "/assets/products/fan.png",
-//     "category": "Electronics"
-//   },
-//   {
-//     "id": 2,
-//     "name": "Prickly Heat Cooling Powder",
-//     "brand": "Candid Cool",
-//     "price": 8,
-//     "rating": 4.8,
-//     "stock": 50,
-//     "description": "Relieve summer skin irritation and stay fresh with this medicated cooling powder. Instant sweat absorption.",
-//     "image": "/assets/products/powder.png",
-//     "category": "Skincare"
-//   },
-//   {
-//     "id": 3,
-//     "name": "Fruit Infuser Water Bottle",
-//     "brand": "AquaPure",
-//     "price": 18,
-//     "rating": 4.6,
-//     "stock": 15,
-//     "description": "Hydrate in style with these aesthetically pleasing bottles. Perfect for fruit-infused water or iced tea.",
-//     "image": "/assets/products/bottle.png",
-//     "category": "Accessories"
-//   },
-//   {
-//     "id": 4,
-//     "name": "SPF 50+ Sunscreen Cream",
-//     "brand": "Neutrogena",
-//     "price": 22,
-//     "rating": 4.9,
-//     "stock": 30,
-//     "description": "Broad-spectrum UVA/UVB protection. Non-greasy, water-resistant, and perfect for all-day summer sun.",
-//     "image": "/assets/products/sunscrin.png",
-//     "category": "Skincare"
-//   },
-//   {
-//     "id": 5,
-//     "name": "Polarized UV400 Sunglasses",
-//     "brand": "Ray-Ban",
-//     "price": 45,
-//     "rating": 4.7,
-//     "stock": 12,
-//     "description": "Classic polarized lenses that block 100% of harmful UV rays. Stylish frame for everyday summer wear.",
-//     "image": "/assets/products/sunglass.png",
-//     "category": "Accessories"
-//   },
-//   {
-//     "id": 6,
-//     "name": "UV Protected Inverted Umbrella",
-//     "brand": "RainGuard",
-//     "price": 20,
-//     "rating": 4.4,
-//     "stock": 20,
-//     "description": "Double-layer inverted umbrella with UV coating. Keeps you dry in rain and protected from harsh sunlight.",
-//     "image": "/assets/products/umbrella.png",
-//     "category": "Outdoor"
-//   }
-// ]
+[
+  {
+    "id": 1,
+    "name": "Portable Handheld Mini Fan",
+    "brand": "CoolBreeze",
+    "price": 12,
+    "rating": 4.5,
+    "stock": 25,
+    "description": "Stay cool anywhere with this rechargeable mini fan. Features 3 speed settings and a long-lasting battery.",
+    "image": "/assets/products/fan.png",
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Prickly Heat Cooling Powder",
+    "brand": "Candid Cool",
+    "price": 8,
+    "rating": 4.8,
+    "stock": 50,
+    "description": "Relieve summer skin irritation and stay fresh with this medicated cooling powder. Instant sweat absorption.",
+    "image": "/assets/products/powder.png",
+    "category": "Skincare"
+  },
+  {
+    "id": 3,
+    "name": "Fruit Infuser Water Bottle",
+    "brand": "AquaPure",
+    "price": 18,
+    "rating": 4.6,
+    "stock": 15,
+    "description": "Hydrate in style with these aesthetically pleasing bottles. Perfect for fruit-infused water or iced tea.",
+    "image": "/assets/products/bottle.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 4,
+    "name": "SPF 50+ Sunscreen Cream",
+    "brand": "Neutrogena",
+    "price": 22,
+    "rating": 4.9,
+    "stock": 30,
+    "description": "Broad-spectrum UVA/UVB protection. Non-greasy, water-resistant, and perfect for all-day summer sun.",
+    "image": "/assets/products/sunscrin.png",
+    "category": "Skincare"
+  },
+  {
+    "id": 5,
+    "name": "Polarized UV400 Sunglasses",
+    "brand": "Ray-Ban",
+    "price": 45,
+    "rating": 4.7,
+    "stock": 12,
+    "description": "Classic polarized lenses that block 100% of harmful UV rays. Stylish frame for everyday summer wear.",
+    "image": "/assets/products/sunglass.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 6,
+    "name": "UV Protected Inverted Umbrella",
+    "brand": "RainGuard",
+    "price": 20,
+    "rating": 4.4,
+    "stock": 20,
+    "description": "Double-layer inverted umbrella with UV coating. Keeps you dry in rain and protected from harsh sunlight.",
+    "image": "/assets/products/umbrella.png",
+    "category": "Outdoor"
+  }
+]
